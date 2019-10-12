@@ -39,7 +39,7 @@ def simlarityCalu(vector1,vector2):
     return simlarity
 
 if __name__ == '__main__':
-    model = gensim.models.Word2Vec.load('data/zhiwiki_news.word2vec')
+    model = gensim.models.Doc2Vec.load(r'E:/learning-nlp/chapter-7/word2vec训练与相似度计算/doc2vec/zhiwiki_news.doc2vec')
     p1 = './data/P1.txt'
     p2 = './data/P2.txt'
     p1_keywords = './data/P1_keywords.txt'
